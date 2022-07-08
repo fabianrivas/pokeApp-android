@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PokeApp</string>
+
+    // main poke info
+    <string name="title_poke_info">Poke Info</string>
+
+    // views
+    <string name="msg_view_empty">Sin registros</string>
+    <string name="msg_view_error">Ocurrio un error</string>
+    <string name="msg_loading">Cargando...</string>
+
+    // pokemon specie
+    <string name="title_specie_info">Información por especie</string>
+    <string name="label_base_happiness">Felicidad base:</string>
+    <string name="label_capture_rate">Tasa de captura:</string>
+    <string name="label_color">Color:</string>
+    <string name="label_egg_groups">Grupo de huevo:</string>
+    <string name="btn_evolution_chain">Línea Evolutiva</string>
+    <string name="btn_abilities">Habilidades</string>
+
+    // evolution chain
+    <string name="title_evolution_chain">Línea Evolutiva</string>
+
+    // ability list
+    <string name="title_ability_list">Habilidades</string>
+
+</resources>

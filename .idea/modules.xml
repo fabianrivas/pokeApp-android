@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PokeApp.iml" filepath="$PROJECT_DIR$/.idea/modules/PokeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PokeApp.home.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PokeApp.home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/PokeApp.home.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/home/PokeApp.home.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/PokeApp.home.main.iml" filepath="$PROJECT_DIR$/.idea/modules/home/PokeApp.home.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/PokeApp.home.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/home/PokeApp.home.unitTest.iml" />
+    </modules>
+  </component>
+</project>
