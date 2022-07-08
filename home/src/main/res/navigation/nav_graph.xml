@@ -12,7 +12,11 @@
         tools:layout="@layout/fragment_pokemon_list" >
         <action
             android:id="@+id/action_pokemonListFragment_to_pokemonSpecieFragment"
-            app:destination="@id/pokemonSpecieFragment" />
+            app:destination="@id/pokemonSpecieFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/pokemonSpecieFragment"
@@ -24,10 +28,18 @@
             app:argType="string" />
         <action
             android:id="@+id/action_pokemonSpecieFragment_to_evolutionChainFragment"
-            app:destination="@id/evolutionChainFragment" />
+            app:destination="@id/evolutionChainFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
         <action
             android:id="@+id/action_pokemonSpecieFragment_to_abilityListFragment"
-            app:destination="@id/abilityListFragment" />
+            app:destination="@id/abilityListFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/evolutionChainFragment"
@@ -39,6 +51,10 @@
         <action
             android:id="@+id/action_evolutionChainFragment_to_pokemonListFragment"
             app:destination="@id/pokemonListFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
             app:popUpTo="@id/nav_graph"
             app:popUpToInclusive="true" />
     </fragment>
